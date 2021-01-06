@@ -18,9 +18,7 @@ h1{
     
        color: tomato;
                    
-                   border: 2px;  
-                   border-radius: 2px;
-                   padding: 10px 20px;
+                   
 }
 .hello{
     color: rgb(141, 243, 116);
@@ -84,4 +82,42 @@ p{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+    padding-bottom: 1px;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+    height: 55%;
+    background-color: white;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 200px;
+}
+#full-stack{
+    border-left: 7px solid tomato ;
+   border-image: linear-gradient(180deg,lightsalmon tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid cyan  ;
+    border-image:linear-gradient (180deg,blue, cyan);
+    border-image-slice: 1;
+
+}
+
+#copyright{
+    float: left;
+    text-align: center;
+    
+}
+#copy{
+    float:left;
+    width: 10%;
+    background-repeat: no-repeat;
+    background-image: url(images/copy2.png);
+
+
 }
